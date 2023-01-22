@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SobreMi</title>
+    <link rel="stylesheet" href="css/hola.css">
+</head>
+<body>
+    <!--Menu Encabezado-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sebastian</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">EXPERIENCIA</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-gamepad"></i>
+            </div>
+        </header>
+    </div>
+    
+
+    <!--Seccion Inicio-->
+    <section class="inicio" id="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/sebas-modified.png" alt="">
+            </div>
+            <h1>Sebastian A</h1>
+            <h2>Learning Web Development</h2>
+            <div class="redes">
+                <a href="https://discord.gg/GDTRtCYDYM" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.twitter.com/@SebasLeeee" target="_blank""><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com/c/@SebasLeee" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://github.com/SebasLeee" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion Sobre Mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola soy Sebastian.</span> un Ecuatoriano mas,conocido como SebasLee soy una persona que desde pequeño le gusta hacer contenido para youtuber sobre juegos, tambien me llama mucho la atencion la informatica en general en mis tiempos libres salgo con mi familia y amigos (No todo en la vida es internet). Cada fin de semana voy a jugar futbol con mi equipo de barrio ya que tambien me gusta el deporte. Soy una persona que me gusta ganar que no se da por vencido y sigue sus sueños y sus metas sin descansar.</p>
+            <div class="fila">
+                <!--Datos Personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Email</strong>
+                            ssebitasaldas@gmail.com
+                        </li>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            11-09-2022
+                        </li>
+                        <li>
+                            <strong>Discord</strong>
+                            SebasLee#2333
+                        </li>
+                    </ul>
+                </div>
+                <!--Intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">  
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MÚSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-regular fa-futbol"></i>
+                            <span>FÚTBOL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Experiencia</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>15%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>15%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>1%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSharp</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>15%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Extras</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULO -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Experiencia</h3>
+                    <div class="item izq">
+                        <h4>Desarrollador Web</h4>
+                        <span class="casa">-</span>
+                        <p>-</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia 2</h3>
+                    <div class="item der">
+                        <h4>Discord Bot</h4>
+                        <span class="casa">-</span>
+                        <span class="fecha">-</span>
+                        <p>-</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section class="portfolio" id="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/dc.png" alt="">
+                    <div class="overlay">
+                        <h3>Bot de Disocord</h3>
+                        <p>Sistema de Tickets Basico</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/webdv.png" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollador Web</h3>
+                        <p>'Sobre Mi' Basico</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/coming-soon-940x529.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Trabajando en el Proyecto</h3>
+                        <p>Muy pronto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <a href="" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://discord.gg/GDTRtCYDYM" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://www.twitter.com/@SebasLeeee" target="_blank""><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.youtube.com/c/@SebasLeee" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://github.com/SebasLeee" target="_blank"><i class="fa-brands fa-github"></i></a>    
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
